@@ -2614,9 +2614,9 @@
     "@types/responselike" "*"
 
 "@types/canvas-confetti@^1.0.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@types/canvas-confetti/-/canvas-confetti-1.3.0.tgz#c2ea6b4c280832e134cb98ea3b84775febc53b63"
-  integrity sha512-vfShQvbd7XD+jT2bFTju5oALkzI5uMO7RGH8RYOTP8p5LiY9NXSr0fJp2BvfW36Qf8807ma/yev0aS5GRwQcFg==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@types/canvas-confetti/-/canvas-confetti-1.4.0.tgz#22127a1a9ed9d456e626d6e2b9a4d3b0a240e18b"
+  integrity sha512-Neq4mvVecrHmTdyo98EY5bnKCjkZGQ6Ma7VyOrxIcMHEZPmt4kfquccqfBMrpNrdryMHgk3oGQi7XtpZacltnw==
 
 "@types/chai@^4.2.13", "@types/chai@^4.2.14":
   version "4.2.14"
