@@ -13871,9 +13871,9 @@ svelte-routing@^1.4.0:
   integrity sha512-4ftcSO2x5kzCUWQKm9Td6/C+t7lRjMEo72utRO0liS/aWZuRwAXOBl3y+hWZw8tV+DTGElqaAAyi44AuWXcVBg==
 
 svelte@^3.15.0, svelte@^3.18.2, svelte@^3.21.0, svelte@^3.24.0:
-  version "3.32.3"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.32.3.tgz#db0c50c65573ecffe4e2f4924e4862d8f9feda74"
-  integrity sha512-5etu/wDwtewhnYO/631KKTjSmFrKohFLWNm1sWErVHXqGZ8eJLqrW0qivDSyYTcN8GbUqsR4LkIhftNFsjNehg==
+  version "3.35.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.35.0.tgz#e0d0ba60c4852181c2b4fd851194be6fda493e65"
+  integrity sha512-gknlZkR2sXheu/X+B7dDImwANVvK1R0QGQLd8CNIfxxGPeXBmePnxfzb6fWwTQRsYQG7lYkZXvpXJvxvpsoB7g==
 
 svgo@^1.0.0:
   version "1.3.2"
