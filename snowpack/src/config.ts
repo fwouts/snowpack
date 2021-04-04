@@ -27,6 +27,7 @@ import {
   isPathImport,
 } from './util';
 import type {Awaited} from './util';
+import {tsExportsPlugin} from './plugins/plugin-ts-exports';
 
 const CONFIG_NAME = 'snowpack';
 const ALWAYS_EXCLUDE = ['**/node_modules/**', '**/_*.{sass,scss}', '**.d.ts'];
@@ -333,6 +334,9 @@ function loadPlugins(
     logger.debug(`loaded plugin: ${pluginName}`);
     plugins.push(plugin);
   });
+
+  // add internal TS handler plugin
+  plugins.push(execPluginFactory(tsExportsPlugin, {input: ['.ts', '.tsx']}));
 
   // add internal JS handler plugin
   plugins.push(execPluginFactory(esbuildPlugin, {input: ['.mjs', '.jsx', '.ts', '.tsx']}));
