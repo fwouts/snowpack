@@ -28,34 +28,38 @@ export function esbuildPlugin(config: SnowpackConfig, {input}: {input: string[]}
     },
     async load({filePath}) {
       let contents = await fs.readFile(filePath, 'utf8');
-      const {loader, isJSX} = getLoader(filePath);
-      if (isJSX) {
-        const jsxInject = config.buildOptions.jsxInject ? `${config.buildOptions.jsxInject}\n` : '';
-        contents = jsxInject + contents;
-      }
-      const isPreact = isJSX && checkIsPreact(contents);
-      let jsxFactory = config.buildOptions.jsxFactory ?? (isPreact ? 'h' : undefined);
-      let jsxFragment = config.buildOptions.jsxFragment ?? (isPreact ? 'Fragment' : undefined);
-
-      const {code, map, warnings} = await esbuild.transform(contents, {
-        loader: loader,
-        jsxFactory,
-        jsxFragment,
-        sourcefile: filePath,
-        sourcemap: config.buildOptions.sourcemap,
-        charset: 'utf8',
-      });
-      for (const warning of warnings) {
-        logger.error(`${colors.bold('!')} ${filePath}
-  ${warning.text}`);
-      }
-      return {
-        '.js': {
-          code: code || '',
-          map,
-        },
-      };
+      return esBuildTransform(config, filePath, contents);
     },
     cleanup() {},
+  };
+}
+
+export async function esBuildTransform(config: SnowpackConfig, filePath: string, contents: string) {
+  const {loader, isJSX} = getLoader(filePath);
+  if (isJSX) {
+    const jsxInject = config.buildOptions.jsxInject ? `${config.buildOptions.jsxInject}\n` : '';
+    contents = jsxInject + contents;
+  }
+  const isPreact = isJSX && checkIsPreact(contents);
+  let jsxFactory = config.buildOptions.jsxFactory ?? (isPreact ? 'h' : undefined);
+  let jsxFragment = config.buildOptions.jsxFragment ?? (isPreact ? 'Fragment' : undefined);
+
+  const {code, map, warnings} = await esbuild.transform(contents, {
+    loader: loader,
+    jsxFactory,
+    jsxFragment,
+    sourcefile: filePath,
+    sourcemap: config.buildOptions.sourcemap,
+    charset: 'utf8',
+  });
+  for (const warning of warnings) {
+    logger.error(`${colors.bold('!')} ${filePath}
+${warning.text}`);
+  }
+  return {
+    '.js': {
+      code: code || '',
+      map,
+    },
   };
 }
