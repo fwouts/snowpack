@@ -15,7 +15,7 @@
   "dependencies": {
     "@babel/core": "^7.0.0",
     "@babel/plugin-syntax-class-properties": "^7.10.0",
-    "react-refresh": "^0.9.0"
+    "react-refresh": "^0.10.0"
   },
   "peerDependencies": {
     "react": ">=16.9.0",
