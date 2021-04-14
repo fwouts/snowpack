@@ -23,6 +23,6 @@
     "kleur": "^4.1.3",
     "node-inject-html": "^0.0.5",
     "object.fromentries": "^2.0.2",
-    "p-queue": "^6.6.1"
+    "p-queue": "^7.1.0"
   }
 }
