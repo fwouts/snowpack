@@ -8861,6 +8861,13 @@ is-reference@^1.1.4, is-reference@^1.2.1:
   dependencies:
     "@types/estree" "*"
 
+is-reference@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/is-reference/-/is-reference-2.0.0.tgz#285569ec765c94a1938405e81451789e8e07d086"
+  integrity sha512-kgaeJVq59jasPrhlGK/K61muTjLxMOZf4oMwI4X94nDWqkqLxDWVWrecCSP5c6OR8JF7Yul0X7h59lB1ho0epQ==
+  dependencies:
+    "@types/estree" "*"
+
 is-regex@^1.0.3, is-regex@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/is-regex/-/is-regex-1.1.2.tgz#81c8ebde4db142f2cf1c53fc86d6a45788266251"
