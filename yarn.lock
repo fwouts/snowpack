@@ -14293,10 +14293,10 @@ svelte-awesome@^2.3.0:
   dependencies:
     svelte "^3.15.0"
 
-svelte-hmr@^0.13.2:
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.13.3.tgz#fba5739b477ea44caf70e542a24a4352bee2b897"
-  integrity sha512-gagW62pLQ2lULmvNA3pIZu9pBCYOaGu3rQikUOv6Nokz5VxUgT9/mQLfMxj9phDEKHCg/lgr3i6PkqZDbO9P2Q==
+svelte-hmr@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.0.tgz#d11c6d2b53d1e7cde51b57cdb7e65c0e4415cb8d"
+  integrity sha512-Rc4w11U+U30m/cHqOJ/xioFSEAY5fd5muiQC7FL6XJuJAuB2OIJoEZl3KEJR2uO1/f4Bw0PdrugtbxcngSsOtQ==
 
 "svelte-package-a@file:./test/build/plugin-build-svelte/packages/svelte-package-a":
   version "1.2.3"
