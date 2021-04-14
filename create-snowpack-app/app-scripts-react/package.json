@@ -21,7 +21,7 @@
     "@snowpack/plugin-react-refresh": "^2.3.5",
     "@snowpack/plugin-typescript": "^1.1.0",
     "babel-jest": "^26.2.2",
-    "babel-preset-react-app": "^9.1.2",
+    "babel-preset-react-app": "^10.0.0",
     "react-app-polyfill": "^1.0.6"
   },
   "gitHead": "a01616bb0787d56cd782f94cecf2daa12c7594e4"
