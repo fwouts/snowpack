@@ -13811,10 +13811,10 @@ socks@~2.3.2:
     ip "1.1.5"
     smart-buffer "^4.1.0"
 
-solid-js@^0.16.7:
-  version "0.16.14"
-  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-0.16.14.tgz#098aea093d1f1660c3572eda5af085e5d0cc2f20"
-  integrity sha512-fdkzrseYaileVAHJAmGRXBrq6Uyd7zwGK53T+QnKTlvd5hhPSh5i2W8vny1HycHTXZ3v8oms/2H2Gj3/cVfVqQ==
+solid-js@^0.26.1:
+  version "0.26.1"
+  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-0.26.1.tgz#1bb6b06537f9a308f75ee4d800b2e1a45b8e6b0b"
+  integrity sha512-y3eiVBY+dF4r048rwrLJXUQuDtsimAVxtI57E5gtt0NbYbB3hzH7h7xXiCsaoBUoiZFxh9XI++Tm4VHIC+XwBw==
 
 "some-custom-lookup-package@file:./test/build/config-package-lookup-fields/packages/some-custom-lookup-package":
   version "1.0.0"
