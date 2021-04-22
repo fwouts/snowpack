@@ -3983,9 +3983,9 @@ ansi-regex@^5.0.0:
   integrity sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg==
 
 ansi-styles@*:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-5.2.0.tgz#07449690ad45777d1924ac2abb2fc8895dba836b"
-  integrity sha512-Cxwpt2SfTzTtXcfOlzGEee8O+c+MmUgGrNiBcXnuWxuFJHe6a5Hz7qwhwe5OgaSYI0IJvkLqWX1ASG+cJOkEiA==
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-6.0.0.tgz#2dc5d239631857256fcc501cf052135f290e25b3"
+  integrity sha512-4nUCKPhvbhgqc4a1S0w446veDod0i6krCOMF/bPBbBq9eP11BKztPS4Mp5yxUXhr1PFEe6mYcUSAv1jfoMUuOg==
 
 ansi-styles@^2.2.1:
   version "2.2.1"
