@@ -5303,9 +5303,9 @@ cjs-module-lexer@^0.6.0:
   integrity sha512-uc2Vix1frTfnuzxxu1Hp4ktSvM3QaI4oXl4ZUqL1wjTu/BGki9TrCWoqLTg/drR1KwAEarXuRFCG2Svr1GxPFw==
 
 cjs-module-lexer@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/cjs-module-lexer/-/cjs-module-lexer-1.1.1.tgz#4a62531147dd488d0369c1cf1580b621796a9b26"
-  integrity sha512-7/a2+QJu5Bt1WYi4vk0NinXin/4pEUBlygSree2N5dSlhc/szO0+HwYKL3llv7myOVingwTgmEHH4WO6Q7Zv7w==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/cjs-module-lexer/-/cjs-module-lexer-1.2.1.tgz#2fd46d9906a126965aa541345c499aaa18e8cd73"
+  integrity sha512-jVamGdJPDeuQilKhvVn1h3knuMOZzr8QDnpk+M9aMlCaMkTDd6fBWPhiDqFvFZ07pL0liqabAiuy8SY4jGHeaw==
 
 "cjs-named-exports-obj@file:./test/esinstall/named-exports/packages/cjs-named-exports-obj":
   version "1.0.0"
