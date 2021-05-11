@@ -3145,9 +3145,9 @@
   integrity sha512-7ohzD2fh5iV74brBLY2SdEI/nt4vnUoY1++r0P8QEAL5utR0fTFGeGijJMLHTmeNriroZQphGyVp46CbIuILMA==
 
 "@types/ws@^7.2.4", "@types/ws@^7.4.0":
-  version "7.4.1"
-  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-7.4.1.tgz#49eacb15a0534663d53a36fbf5b4d98f5ae9a73a"
-  integrity sha512-ISCK1iFnR+jYv7+jLNX0wDqesZ/5RAeY3wUx6QaphmocphU61h+b+PHjS18TF4WIPTu/MMzxIq2PHr32o2TS5Q==
+  version "7.4.3"
+  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-7.4.3.tgz#eb68ffe017489566164f859cd88513907f50a18a"
+  integrity sha512-LiMEM1yWxVHbFLGn00ADIg/EKjZsX7B29pioAr8Qe4yZtqSEl+aRcuGukxqA7I/7aZqOfrYdJpFEPNKB0cmhbg==
   dependencies:
     "@types/node" "*"
 
