@@ -24,7 +24,7 @@
     "@babel/preset-typescript": "^7.10.4",
     "@snowpack/plugin-dotenv": "^2.0.4",
     "@snowpack/plugin-svelte": "^3.2.0",
-    "babel-jest": "^26.2.2",
+    "babel-jest": "^27.0.1",
     "jest-transform-svelte": "^2.1.1"
   },
   "gitHead": "a01616bb0787d56cd782f94cecf2daa12c7594e4"
