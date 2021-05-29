@@ -20,7 +20,7 @@
     "@snowpack/plugin-dotenv": "^2.0.4",
     "@snowpack/plugin-react-refresh": "^2.3.5",
     "@snowpack/plugin-typescript": "^1.1.0",
-    "babel-jest": "^26.2.2",
+    "babel-jest": "^27.0.2",
     "babel-preset-react-app": "^9.1.2",
     "react-app-polyfill": "^1.0.6"
   },
